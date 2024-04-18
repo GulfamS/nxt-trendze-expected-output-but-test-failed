@@ -1,0 +1,77 @@
+.payments-container {
+  background-color: rgb(234, 214, 214);
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-details {
+  font-family: Roboto;
+  font-size: 24px;
+  color: rgb(5, 5, 38);
+  font-weight: bold;
+}
+
+.payment-method {
+  font-family: Roboto;
+  font-weight: 500;
+  color: rgb(30, 30, 67);
+  font-size: 20px;
+}
+
+.order-details {
+  font-family: Roboto;
+  color: black;
+  font-size: 22px;
+}
+
+.payment-method-inputs {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 5px;
+}
+
+.payment-method-input-container {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.payment-method-input {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+}
+
+.payment-method-label {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  color: grey;
+}
+
+.disabled-label {
+  color: rgb(65, 63, 63);
+}
+
+.order-button {
+  background-color: rgb(51, 196, 51);
+  font-family: Roboto;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px 5px 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+.success-message {
+  font-family: Roboto;
+  color: rgb(41, 169, 216);
+  font-size: 18px;
+  font-weight: 500;
+}
